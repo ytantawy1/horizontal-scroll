@@ -1,0 +1,100 @@
+/* Typographic Styles */
+
+body {
+    color: #222;
+}
+
+h1, h2, h3, .btn {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    letter-spacing: 1px;
+    margin-top: 2rem;
+}
+
+p {
+    font-family: "Roboto Flex", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #333;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    white-space: nowrap;
+    width: 8.5rem;
+}
+
+.btn:hover {
+    background-color: #000;
+    letter-spacing: 2px;
+}
+
+/* Layout Styles */
+
+.inner-container {
+    max-width: 64rem;
+    padding: 2rem 1rem;
+}
+
+section:last-of-type {
+    background-color: #333;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.scroll-wrapper {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.2rem;
+    box-shadow: 3px 3px 3px #eee;
+    flex: 0 0 24rem;
+    margin: 2rem 1rem;
+}
+
+.card img {
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.card-body {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+/* Scrollbar Styles */
+
+.scroll-wrapper::-webkit-scrollbar {
+    background-color: #eee;
+    height: 0.5rem;
+}
+
+.scroll-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background-color: #444;
+}
+
+.scroll-wrapper {
+    scrollbar-color: #444;
+    scrollbar-width: thin;
+}
